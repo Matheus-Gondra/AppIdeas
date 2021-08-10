@@ -41,12 +41,29 @@ input {
     height: 25px;
 }
 
+.output-area {
+    margin-top: 36px;
+}
+
 .output {
     font-size: 15px;
     text-align: center;
     font-weight: 500;
+
 }
 
 .hidden {
     display: none;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid white;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
 }

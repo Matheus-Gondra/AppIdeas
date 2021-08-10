@@ -40,3 +40,13 @@ input {
     text-align: center;
     height: 25px;
 }
+
+.output {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hidden {
+    display: none;
+}

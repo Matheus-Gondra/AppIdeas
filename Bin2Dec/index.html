@@ -19,7 +19,8 @@
             <div class="container">
                 <label for="bin">Insira um número binario</label>
                 <input id="bin" type="text" maxlength="8">
-                <button>Converter</button>
+                <button onclick="verifica()">Converter</button>
+                <span id="mensage" class="hidden">Insira apernas 0's ou 1's</span>
                 
                 <div class="output-area hidden">
                     <h2 class="output">Esse é o seu equivalente em decimal</h2>

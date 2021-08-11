@@ -56,6 +56,11 @@ input {
     display: none;
 }
 
+#mensage {
+    margin-top: 20px;
+    color: red;
+}
+
 button {
     width: 200px;
     height: 25px;

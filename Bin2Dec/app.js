@@ -1,6 +1,4 @@
-const btn = document.querySelector("button");
-
-btn.addEventListener("click", function() {
+function converter() {
     const input = document.querySelector("#bin");
     const bin = input.value;
     let decimal = 0
@@ -10,6 +8,18 @@ btn.addEventListener("click", function() {
         decimal+= parseInt(bin[i]) * Math.pow(2,bin.length-1-i);
 
     }
+    console.log(decimal)
+}
+function verifica(){
+    const regex = /^(0|1)+$/;
+    const input = document.querySelector("#bin").value;
 
-
-});
+    if(regex.test(input)){
+        converter();
+        const mensage = document.querySelector("#mensage");
+        mensage.classList.add("hidden");
+    }else {
+        const mensage = document.querySelector("#mensage");
+        mensage.classList.remove("hidden");
+    }
+}

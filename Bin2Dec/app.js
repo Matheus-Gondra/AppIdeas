@@ -20,10 +20,13 @@ function verifica(){
         converter();
         const mensage = document.querySelector("#mensage");
         mensage.classList.add("hidden");
-	const resultado = document.querySelector("#output");
-	resultado.classList.remove("hidden");
-	resultado.classList.add("output-area");
+	    const resultado = document.querySelector("#output");
+	    resultado.classList.remove("hidden");
+	    resultado.classList.add("output-area");
     }else {
+        const resultado = document.querySelector("#output");
+        resultado.classList.add("hidden");
+        resultado.classList.remove("output-area");
         const mensage = document.querySelector("#mensage");
         mensage.classList.remove("hidden");
     }

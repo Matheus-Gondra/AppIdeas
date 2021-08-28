@@ -34,6 +34,10 @@ main {
     margin-top: 6em;
 }
 
+label {
+    font-size: 17px;
+}
+
 input {
     width: 300px;
     margin: 25px 0;
@@ -46,7 +50,7 @@ input {
 }
 
 .output {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     font-weight: 500;
 
@@ -82,4 +86,5 @@ button {
 span {
     margin-top: 20px;
     color: white;
+    font-size: 20px;
 }

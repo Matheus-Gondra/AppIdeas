@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Border Radius Previewer</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1 class="title">Border Radius Previewer</h1>
+         <div class="previewer-container">
+            <div class="previewer"></div>
+         </div>
+         <form class="form-container">
+            <label class="text" for="topLeft">Top-Left</label>
+            <input id="topLeft" class="input inputBorder" type="number">
+
+            <label class="text" for="topRight">Top-Right</label>
+            <input id="topRight" class="input inputBorder" type="number">
+
+            <label class="text" for="bottomLeft">Bottom-Left</label>
+            <input id="bottomLeft" class="input inputBorder" type="number">
+
+            <label class="text" for="bottomRight">Bottom-Right</label>
+            <input id="bottomRight" class="input inputBorder" type="number">
+         </form>
+         <div class="resul-container">
+            <label class="text" for="resul">border-radius:</label>
+            <input class="input resul" id="resul" readonly type="text">
+            <button class="resul-btn">Copiar</button>
+         </div>
+      </div>
+      
+   </body>
+</html>

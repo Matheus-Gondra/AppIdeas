@@ -24,6 +24,11 @@ const changeRadius = (value, direction) => {
    }
 }
 
+const copyText = () => {
+   let text = result.value;
+   navigator.clipboard.writeText(`border-radius: ${text};`);
+}
+
 topLeft.addEventListener("change", (e) => {
    const value = e.target.value;
    changeRadius(value, "topLeft");

@@ -10,32 +10,32 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <input type="text" class="display" disabled>
+            <input type="text" id="display" class="display" disabled>
 
-            <button class="btn btn-operations">C</button>
-            <button class="btn btn-operations">+/-</button>
-            <button class="btn btn-operations">%</button>
-            <button class="btn btn-operations">/</button>
+            <button onclick="clearDisplay()" class="btn clear btn-operations">C</button>
+            <button onclick="invertSignal()" class="btn btn-operations">+/-</button>
+            <button onclick="insertValue('/')" class="btn btn-operations">/</button>
             
-            <button class="btn btn-number">7</button>
-            <button class="btn btn-number">8</button>
-            <button class="btn btn-number">9</button>
-            <button class="btn btn-operations">x</button>
+            <button onclick="insertValue('7')" class="btn btn-number">7</button>
+            <button onclick="insertValue('8')" class="btn btn-number">8</button>
+            <button onclick="insertValue('9')" class="btn btn-number">9</button>
+            <button onclick="insertValue('*')" class="btn btn-operations">x</button>
             
-            <button class="btn btn-number">4</button>
-            <button class="btn btn-number">5</button>
-            <button class="btn btn-number">6</button>
-            <button class="btn btn-operations">-</button>
+            <button onclick="insertValue('4')" class="btn btn-number">4</button>
+            <button onclick="insertValue('5')" class="btn btn-number">5</button>
+            <button onclick="insertValue('6')" class="btn btn-number">6</button>
+            <button onclick="insertValue('-')" class="btn btn-operations">-</button>
             
-            <button class="btn btn-number">1</button>
-            <button class="btn btn-number">2</button>
-            <button class="btn btn-number">3</button>
-            <button class="btn btn-operations">+</button>
+            <button onclick="insertValue('1')" class="btn btn-number">1</button>
+            <button onclick="insertValue('2')" class="btn btn-number">2</button>
+            <button onclick="insertValue('3')" class="btn btn-number">3</button>
+            <button onclick="insertValue('+')" class="btn btn-operations">+</button>
             
-            <button class="btn zero btn-number">0</button>
-            <button class="btn btn-number">.</button>
-            <button class="btn btn-operations equal">=</button>
+            <button onclick="insertValue('0')" class="btn zero btn-number">0</button>
+            <button onclick="insertValue('.')" class="btn point">.</button>
+            <button onclick="calculate()" class="btn btn-operations equal">=</button>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>

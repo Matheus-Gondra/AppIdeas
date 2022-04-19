@@ -35,6 +35,10 @@
    color: white;
 }
 
+.clear {
+   grid-column: 1/3
+}
+
 .zero {
    grid-column: 1/3;
 }
@@ -55,7 +59,7 @@
    background-color: #a9a9a9;
 }
 
-.btn-number {
+.btn-number, .point {
    background-color: #000000;
    opacity: .7;
 }

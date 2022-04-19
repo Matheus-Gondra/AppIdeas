@@ -8,4 +8,8 @@ Nesse projeto temos uma calculadora com as 4 operações básicas (soma, subtra�
 
 O design desse projeto foi basiado na calculadora do windows 10.
 
+## Minha evolução
+
+Durante a pesquisa de material para fazer esse projeto consegui aprender a como montar um layout com css grid.
+
 ![calculadora](./calculadora.png)

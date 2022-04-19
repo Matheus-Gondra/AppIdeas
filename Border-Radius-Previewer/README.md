@@ -10,4 +10,8 @@ A propriedade border-radius pode ter vários valores alterados. Visualize a apar
 - [x] O usuário pode copiar o CSS resultante para a área de transferência.
 
 
+## Minha evolução
+
+Esse projeto me fez aprender como usar o javascript para copiar um texto para a área de transferência (CTRL + C).
+
 ![imagem do projeto Border Radius Previewer](./img-projeto.png)

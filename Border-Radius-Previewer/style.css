@@ -60,6 +60,7 @@
    border: none;
    padding: 0 10px;
    border-radius: 8px;
+   text-align: center;
 }
 
 .inputBorder {
@@ -74,6 +75,8 @@
 .resul {
    height: 40px;
    margin: 0 .5rem;
+   font-size: 14px;
+   font-weight: 500;
 }
 
 .resul-btn {
